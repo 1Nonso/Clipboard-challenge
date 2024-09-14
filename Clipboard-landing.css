@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 7%;
+}
+
+#image1 {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0rem 4rem 0rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  font-size: 18px;
+  padding: 0rem 2rem 3rem 2rem;
+}
+
+.button1 {
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.5),
+    0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
+  margin: 0 2rem 1rem 2rem;
+  border-radius: 1.9rem;
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+}
+
+.button1:hover {
+  cursor: pointer;
+  background-color: hsl(171, 66%, 44%, 0.7);
+}
+
+.button2 {
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.5),
+    0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
+  margin: 0 2rem 10rem 2rem;
+  border-radius: 1.9rem;
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+}
+
+.button2:hover {
+  cursor: pointer;
+  background-color: hsl(233, 100%, 69%, 0.6);
+}
+
+#image2 {
+  display: flex;
+  justify-content: center;
+}
+
+#image2-1 {
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+#image3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+#image3-1 {
+  width: 90%;
+}
+
+#section-2 {
+  margin-bottom: 7rem;
+}
+
+#SRW {
+  margin-bottom: 5rem;
+}
+
+h3 {
+  margin-bottom: 1.9rem;
+  text-align: center;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+#section-5 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.sec-5img {
+  margin: 3rem;
+}
+
+#last-heading {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#section-6 {
+  margin-bottom: 7rem;
+}
+
+#flex-container2 {
+  background-color: hsl(201, 11%, 66%, 0.1);
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+#logo-svg {
+  width: 3rem;
+}
+
+.flex-items2 {
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+#install-guide {
+  padding-bottom: 2.5rem;
+}
+
+.flex-items2:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+#section-7 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-7items {
+  padding: 0 2rem;
+}
+
+.sec-7items:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+  background-blend-mode: multiply;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+  }
+
+  .flex-items {
+    padding: 0 23.5rem;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  #flex-1items {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button1 {
+    padding: 1.5rem 3rem;
+    border-radius: 4rem;
+  }
+
+  .button2 {
+    padding: 1.5rem 3rem;
+    border-radius: 4rem;
+  }
+
+  #KTOYS {
+    margin: 2rem 0 2.5rem 0;
+  }
+
+  .center-div {
+    display: flex;
+  }
+
+  .center-p {
+    text-align: left;
+  }
+
+  #image2-1 {
+    margin-left: 4rem;
+    width: 110%;
+  }
+
+  #center-p {
+    padding: 0 13rem 0 5rem;
+    margin-top: 5rem;
+  }
+
+  h2 {
+    text-align: left;
+    margin: 0 2rem 1rem 2rem;
+  }
+
+  #image3-1 {
+    width: 70%;
+  }
+
+  #mai-info3 {
+    padding: 0 23rem;
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+  }
+
+  #sub4-para {
+    width: 25rem;
+  }
+
+  .mai-sec4 {
+    display: flex;
+    margin: 0 1rem;
+  }
+
+  .sub-sec4 {
+    text-align: center;
+  }
+
+  #section-5 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #section-6 {
+    padding: 0 23rem;
+    margin: 0;
+  }
+
+  #last-heading {
+    font-size: 2rem;
+  }
+
+  #flex-container2 {
+    display: flex;
+    padding: 4rem 0 0 0;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  #sec-7info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 0;
+    margin-right: 5rem;
+  }
+
+  #contact-us {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #press-kit {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #section-7 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .flex-items2 {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sec-7items {
+    padding: 1rem;
+  }
+
+  #logo-svg {
+    width: 5rem;
+  }
+}
